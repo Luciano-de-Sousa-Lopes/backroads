@@ -378,6 +378,15 @@ Featured Tours
 .tour-info {
   padding: 1.25rem 1.5rem;
 }
+.tour-info--header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tour-info--header p {
+  color: var(--clr-grey-7);
+  margin-bottom: 0.75rem;
+}
 .tour-info--footer {
   display: flex;
   justify-content: space-between;
@@ -405,13 +414,12 @@ Featured Tours
     flex: 0 0 calc(50% - 2rem);
   }
 }
-
 @media screen and (min-width: 75rem) {
   .tour-card {
-    flex: 0 0 calc(25% - 1rem);
+    flex: 0 0 calc(33.333% - 1rem);
   }
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 26.25rem) {
   html {
     font-size: 70%;
   }
